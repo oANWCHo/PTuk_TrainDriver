@@ -11143,7 +11143,7 @@
 		(uuid "0732489d-7f6f-4fa0-bdf2-bc2a41762e9e")
 	)
 	(hierarchical_label "nFAULT_1"
-		(shape input)
+		(shape output)
 		(at 33.02 95.25 180)
 		(effects
 			(font
@@ -11176,7 +11176,7 @@
 		(uuid "4d596d7f-2e68-4743-8a92-ea95306d0635")
 	)
 	(hierarchical_label "nFAULT_2"
-		(shape input)
+		(shape output)
 		(at 156.21 95.25 180)
 		(effects
 			(font
@@ -11187,7 +11187,7 @@
 		(uuid "5428d22e-d3ae-4c70-a7da-0abf3f84e41f")
 	)
 	(hierarchical_label "nFAULT_1"
-		(shape input)
+		(shape output)
 		(at 77.47 71.12 180)
 		(effects
 			(font
@@ -11198,7 +11198,7 @@
 		(uuid "6687e2e9-60d0-4866-badd-704ae89b53a8")
 	)
 	(hierarchical_label "nFAULT_2"
-		(shape input)
+		(shape output)
 		(at 200.66 71.12 180)
 		(effects
 			(font
@@ -11298,6 +11298,17 @@
 		)
 		(property "Package" "0805"
 			(at 55.88 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 50.8 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11434,7 +11445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 20.0152 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11457,6 +11468,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 19.05 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C46550395"
 			(at 19.05 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11550,6 +11572,17 @@
 		)
 		(property "Package" "0805"
 			(at 179.07 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 173.99 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11884,6 +11917,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 73.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27131978-b74d-4564-89a4-594e3d8fa34a")
 		)
@@ -12211,6 +12255,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 173.99 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc5783b8-5725-4bec-95b8-dec45a88c68a")
 		)
@@ -12336,6 +12391,17 @@
 			)
 		)
 		(property "LCSC Part Name" "有刷直流电机驱动芯片 45V"
+			(at 97.79 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C90964"
 			(at 97.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12566,6 +12632,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 226.06 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12832,6 +12909,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3161572-30b1-4f58-8ab1-1dce1cda95f8")
 		)
@@ -12920,6 +13008,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 41.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13014,6 +13113,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 203.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12b1d7f3-315c-430c-92c6-078be3adc428")
 		)
@@ -13087,6 +13197,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 102.87 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13178,6 +13299,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 44.45 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13288,6 +13420,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 165.1 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec1113d1-9979-4ddd-9a43-21c970c1f3d9")
 		)
@@ -13337,7 +13480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 40.3352 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13360,6 +13503,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C46550395"
 			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13576,7 +13730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 163.5252 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13599,6 +13753,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 162.56 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C46550395"
 			(at 162.56 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13682,6 +13847,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 102.87 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13852,6 +14028,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 226.06 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14155,7 +14342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 143.2052 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14178,6 +14365,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 142.24 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C46550395"
 			(at 142.24 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14358,6 +14556,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf8d8323-0650-4a8a-8eec-cca781d6197b")
 		)
@@ -14483,6 +14692,17 @@
 			)
 		)
 		(property "LCSC Part Name" "有刷直流电机驱动芯片 45V"
+			(at 220.98 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C90964"
 			(at 220.98 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14653,6 +14873,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 72.39 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba7251d5-a3a9-4333-97d7-d2ae4a3a6f9b")
 		)
@@ -14813,6 +15044,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ced66e1f-d85f-4cb4-8810-f54b3adc7820")
 		)
@@ -14894,6 +15136,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 167.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 167.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14996,6 +15249,17 @@
 		)
 		(property "Package" "0805"
 			(at 156.21 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 151.13 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15330,6 +15594,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 151.13 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3eea6f8d-ec1e-4437-aac5-7f74fcc8bc63")
 		)
@@ -15379,7 +15654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 61.9252 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15402,6 +15677,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C46550395"
 			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15503,6 +15789,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3670ed54-c96c-4415-9406-bb7b9044b09f")
 		)
@@ -15575,6 +15872,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 44.45 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15677,6 +15985,17 @@
 		)
 		(property "Package" "XT60PW"
 			(at 197.104 133.096 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 195.58 129.54 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16089,6 +16408,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30512b06-efa3-4791-a26c-c73121162a75")
 		)
@@ -16177,6 +16507,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16307,7 +16648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 185.1152 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16330,6 +16671,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 184.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C46550395"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "f693687c-ee28-46d4-a65a-4ae01338286c")
+	(uuid "d431784a-bcd6-4ea4-a23b-3393b036ea09")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -1532,7 +1532,7 @@
 		)
 		(uuid "f95ed1bc-6b51-4c5e-82f2-81234453738d")
 	)
-	(hierarchical_label "aux_port2"
+	(hierarchical_label "Horn"
 		(shape input)
 		(at 134.62 87.63 180)
 		(effects
@@ -1543,7 +1543,7 @@
 		)
 		(uuid "0e5d256b-26d4-41ad-8fb2-f8691e7fe836")
 	)
-	(hierarchical_label "aux_port3"
+	(hierarchical_label "Lamp"
 		(shape input)
 		(at 214.63 87.63 180)
 		(effects
@@ -1554,7 +1554,7 @@
 		)
 		(uuid "72b7c4a8-e7ef-4d55-8201-a7e6ecd42b25")
 	)
-	(hierarchical_label "aux_port1"
+	(hierarchical_label "Pneumatic"
 		(shape input)
 		(at 55.88 86.36 180)
 		(effects
@@ -1622,6 +1622,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1792,6 +1803,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "1a619df1-0456-4785-bf83-2c4a5c3e7dea")
 		)
@@ -1892,6 +1914,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 147.32 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0699c28f-f516-4aee-ac8b-327997750d06")
 		)
@@ -1983,6 +2016,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bff52f58-4f7c-41ce-b424-45e37592b10e")
 		)
@@ -2056,6 +2100,17 @@
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 158.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 158.75 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,6 +2202,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 80.01 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c50ce2b-35c8-4907-b2ec-bea4236b13ef")
 		)
@@ -2229,6 +2295,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b00ba65-1b56-4a41-8131-5cb420ce8338")
 		)
@@ -2301,6 +2378,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2489,6 +2577,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "331527eb-3cf3-4d01-9e24-ab33840c95f9")
 		)
@@ -2649,6 +2748,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 251.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "e7b4836a-5320-4a56-a2a5-5b3b11f1ae26")
 		)
@@ -2730,6 +2840,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 173.99 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2891,6 +3012,17 @@
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 238.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3069,6 +3201,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 68.58 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c75e5051-0e75-4bb1-8fd9-971b7549e4eb")
 		)
@@ -3157,6 +3300,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 231.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3326,6 +3480,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 227.33 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
