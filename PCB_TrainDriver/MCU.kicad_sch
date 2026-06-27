@@ -7890,6 +7890,17 @@
 		)
 		(uuid "05b6aec6-c810-43b5-88f6-ccbe53158976")
 	)
+	(hierarchical_label "INA219_SCL"
+		(shape bidirectional)
+		(at 251.46 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bca35b6-8336-47a7-b6d9-8e14f27b5b85")
+	)
 	(hierarchical_label "Pneumatic"
 		(shape output)
 		(at 220.98 90.17 180)
@@ -7956,6 +7967,17 @@
 		)
 		(uuid "967d3eed-0c28-4896-b15c-cce941605da2")
 	)
+	(hierarchical_label "INA219_SDA"
+		(shape bidirectional)
+		(at 251.46 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b42eac83-4eb4-4c38-baa0-a4a35ccc3354")
+	)
 	(hierarchical_label "EN_1"
 		(shape output)
 		(at 220.98 69.85 180)
@@ -8021,7 +8043,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 93.98 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,8 +8086,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C71687"
-			(at 93.98 58.42 0)
+		(property "JLCPCB Part #" "C307331"
+			(at 93.98 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +8097,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 93.98 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 93.98 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -8171,7 +8204,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2150"
+		(property "JLCPCB Part #" "C2150"
 			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8182,7 +8215,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 106.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8312,7 +8356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 180.34 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8356,7 +8400,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C71687"
+		(property "JLCPCB Part #" "C307331"
 			(at 176.53 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8411,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 176.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 176.53 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8416,7 +8471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 74.93 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8515,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C71687"
+		(property "JLCPCB Part #" "C307331"
 			(at 71.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8471,7 +8526,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 71.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 71.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8803,7 +8869,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C15999 "
+		(property "JLCPCB Part #" "C15999"
 			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8814,7 +8880,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 76.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9032,7 +9109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10V"
 			(at 196.85 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,7 +9153,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C77000"
+		(property "JLCPCB Part #" "C2846677"
 			(at 193.04 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +9164,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 193.04 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9215,7 +9303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 210.82 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +9347,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C71687"
+		(property "JLCPCB Part #" "C307331"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9270,7 +9358,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 207.01 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9464,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2846043"
+		(property "JLCPCB Part #" "C2846043"
 			(at 43.18 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9376,7 +9475,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2846043"
+		(property "LCSC Part #" ""
+			(at 43.18 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 43.18 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9511,7 +9621,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "JLCPCB Part #" "C25744"
 			(at 97.79 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -9522,7 +9632,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 97.79 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 97.79 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -9612,7 +9733,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "JLCPCB Part #" "C25744"
 			(at 97.79 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -9623,7 +9744,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 97.79 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 97.79 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -9837,7 +9969,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "Type-C 母 卧贴"
+		(property "JLCPCB Part #" "C393939"
 			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9848,7 +9980,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2765186"
+		(property "LCSC Part #" ""
 			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9859,7 +9991,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part#" ""
 			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9988,8 +10120,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
-			(at 218.44 29.21 90)
+		(property "JLCPCB Part #" "C25744"
+			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9999,7 +10131,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 218.44 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10092,7 +10235,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14445"
+		(property "JLCPCB Part #" "C52923"
 			(at 218.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10103,7 +10246,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 218.44 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 218.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10275,6 +10429,28 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2913198"
+			(at 236.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 236.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10597,7 +10773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 59.69 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10641,7 +10817,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C71687"
+		(property "JLCPCB Part #" "C307331"
 			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10652,7 +10828,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 55.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10979,7 +11166,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25905"
+		(property "JLCPCB Part #" "C23186"
 			(at 74.93 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -10990,7 +11177,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 74.93 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 74.93 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -11238,7 +11436,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25905"
+		(property "JLCPCB Part #" "C23186"
 			(at 73.66 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -11249,7 +11447,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 73.66 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 73.66 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -11342,7 +11551,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C318938"
+		(property "JLCPCB Part #" "C118141"
 			(at 161.29 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -11353,7 +11562,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C118141"
+		(property "LCSC Part #" ""
+			(at 161.29 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 161.29 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +11669,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2150"
+		(property "JLCPCB Part #" "C2150"
 			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11460,7 +11680,18 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" ""
+			(at 106.68 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
