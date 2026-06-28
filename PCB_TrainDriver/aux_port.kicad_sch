@@ -186,6 +186,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1095,12 +1296,6 @@
 		(uuid "47e133bf-7361-4714-8e06-507a75fda03d")
 	)
 	(junction
-		(at 231.14 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48608d96-5356-4ee8-9c89-99d5da3177b7")
-	)
-	(junction
 		(at 90.17 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1125,22 +1320,56 @@
 		(uuid "818c5830-4fc5-4207-9c37-ef22199b5636")
 	)
 	(junction
+		(at 231.14 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e9f3db-2a95-4718-8d41-0a7d5f0bf124")
+	)
+	(junction
+		(at 67.31 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ddb993e-5aba-401f-91fb-195ac0a42e54")
+	)
+	(junction
+		(at 146.05 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93872a13-54b6-4c0f-ae23-03a06818442a")
+	)
+	(junction
+		(at 224.79 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9508e8f3-8ec0-493d-ac5c-cbfb7618d9ce")
+	)
+	(junction
 		(at 72.39 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a08a46f5-7189-4f64-99db-4067ac48c60f")
+		(uuid "bda1291c-fe04-4f4e-a1c9-ce8af0beeaf1")
 	)
 	(junction
 		(at 151.13 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd5ef20b-7f2f-4433-b2fd-6c1546e551d1")
+		(uuid "cf895221-9172-43ec-870d-df33055d7ddb")
 	)
 	(junction
 		(at 168.91 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f789aed1-c9a3-4f8e-99d9-d69ac26165b9")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e0e419-a593-4472-b89f-4ba2cb7e4a3a")
 	)
 	(wire
 		(pts
@@ -1234,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 86.36) (xy 66.04 86.36)
+			(xy 55.88 86.36) (xy 58.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 151.13 87.63)
+			(xy 142.24 87.63) (xy 146.05 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 87.63) (xy 231.14 87.63)
+			(xy 222.25 87.63) (xy 224.79 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1394,6 +1623,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 87.63) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864343c5-ca08-47d2-8dd7-5f55f3d4f5f8")
+	)
+	(wire
+		(pts
 			(xy 151.13 91.44) (xy 151.13 87.63)
 		)
 		(stroke
@@ -1404,13 +1643,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 86.36) (xy 72.39 86.36)
+			(xy 146.05 97.79) (xy 146.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a4f481-627a-429c-a156-e90b9a3ba683")
+	)
+	(wire
+		(pts
+			(xy 63.5 86.36) (xy 67.31 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a4834828-6103-40cd-92fe-d67ad099274e")
+	)
+	(wire
+		(pts
+			(xy 224.79 97.79) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88d49ee-fc10-4758-b13b-5ffa2b65abaa")
 	)
 	(wire
 		(pts
@@ -1424,13 +1683,33 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 87.63) (xy 224.79 87.63)
+			(xy 214.63 87.63) (xy 217.17 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af69916d-9d9a-449a-8d90-6ee57f12fa54")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dee5c1-1a02-484c-ba8a-6343575ec134")
+	)
+	(wire
+		(pts
+			(xy 67.31 96.52) (xy 67.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f5de90-f8b1-43ef-85f6-231f18747fa3")
 	)
 	(wire
 		(pts
@@ -1454,6 +1733,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 87.63) (xy 224.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5809ca-4d32-485c-b848-fcc59150e9ac")
+	)
+	(wire
+		(pts
 			(xy 151.13 99.06) (xy 168.91 99.06)
 		)
 		(stroke
@@ -1464,7 +1753,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 87.63) (xy 144.78 87.63)
+			(xy 146.05 87.63) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7adbb68-1208-4b13-9441-c7dd0a8dbcbb")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1481,6 +1780,16 @@
 			(type default)
 		)
 		(uuid "e2f2e36d-dde8-40d4-ac83-1ea97aa1f2a9")
+	)
+	(wire
+		(pts
+			(xy 224.79 87.63) (xy 231.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81eda31-06a5-45bc-b143-043406880a28")
 	)
 	(wire
 		(pts
@@ -1564,6 +1873,84 @@
 			(justify right)
 		)
 		(uuid "c2339a17-4f39-4359-8a40-363cb071242d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1567c52e-4973-45f4-8768-c77945a3a9fd")
+		(property "Reference" "#PWR071"
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bad73055-4371-49a9-8709-03240ac2186b")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -1675,6 +2062,128 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 146.05 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19ead314-a171-4113-8ae8-a8a7b930a2ae")
+		(property "Reference" "R35"
+			(at 148.082 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 145.9967 93.999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25900"
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 144.018 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 146.05 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 146.05 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a48d1c83-743f-4dac-93d5-cab10ba6ea5b")
+		)
+		(pin "2"
+			(uuid "2e2bb792-7a9d-4ff1-8ab5-b916e132f093")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1884,7 +2393,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 147.32 87.63 90)
+		(at 139.7 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1894,7 +2403,7 @@
 		(dnp no)
 		(uuid "39a4f9d4-35b7-4299-8b3b-21c2dff4858d")
 		(property "Reference" "R9"
-			(at 148.082 85.852 90)
+			(at 140.462 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1905,7 +2414,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 148.59 87.63 90)
+			(at 140.97 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1916,7 +2425,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 87.63 0)
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1927,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 87.63 0)
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1938,7 +2447,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 147.32 87.63 0)
+			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,7 +2458,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 147.32 89.408 90)
+			(at 139.7 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1959,7 +2468,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23138"
-			(at 147.32 87.63 90)
+			(at 139.7 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,7 +2479,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 147.32 87.63 90)
+			(at 139.7 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +2490,7 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 147.32 87.63 90)
+			(at 139.7 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,6 +2634,206 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 224.79 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58ac6e40-d00c-439b-b092-8cb6368ba778")
+		(property "Reference" "R34"
+			(at 226.822 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 224.7367 93.999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 224.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25900"
+			(at 224.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 222.758 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 224.79 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 224.79 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6103dbd-fab9-45ac-9f81-15db67d9d670")
+		)
+		(pin "2"
+			(uuid "0255d032-54fb-4361-9ad2-d7d85634f5d8")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58dfbfb1-0f36-4ece-985a-a12dc1aa2c60")
+		(property "Reference" "#PWR086"
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75b793fd-3826-4e0d-9105-5083e8e1737a")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2355,6 +3064,131 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 100.33 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7962dc4e-8815-45e3-b032-cd048d8e7fa4")
+		(property "Reference" "D13"
+			(at 73.66 101.9175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 71.12 101.9175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "928adfe0-6db6-4557-8246-48fbf6dd5c6d")
+		)
+		(pin "2"
+			(uuid "203235d4-49b7-45f4-b3c9-f5af1bb3d872")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2672,6 +3506,128 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fdf69da-7bd9-4604-a2e9-72ab1850a22e")
+		(property "Reference" "R36"
+			(at 69.342 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 67.2567 92.729 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 67.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25900"
+			(at 67.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 65.278 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 67.31 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 67.31 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db18703c-8949-4536-9e91-65310d4c75f1")
+		)
+		(pin "2"
+			(uuid "34f1e99d-cb6a-4de7-b5c9-c9b71e330eb8")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3004,6 +3960,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 146.05 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0a9c2a6-3ff3-4ac2-aee9-cff81267bef1")
+		(property "Reference" "D8"
+			(at 152.4 103.1875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 149.86 103.1875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6514f94c-e83b-4a81-b372-6e1a10fe8591")
+		)
+		(pin "2"
+			(uuid "78d98fc9-cbf0-43be-9d71-a0a83035d6d8")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 173.99 78.74 180)
 		(unit 1)
@@ -3113,6 +4194,131 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 224.79 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab66d8e8-778a-4950-ad11-4b87b3229da0")
+		(property "Reference" "D7"
+			(at 231.14 103.1875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 228.6 103.1875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb43226c-6676-4dd5-a6a4-3de737480a41")
+		)
+		(pin "2"
+			(uuid "ed4329a2-8c8d-4fb1-8739-0d99adbcbdf3")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3391,7 +4597,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 86.36 90)
+		(at 60.96 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3401,7 +4607,7 @@
 		(dnp no)
 		(uuid "d649be83-f793-4722-a0d1-45d4b0d2a6fd")
 		(property "Reference" "R8"
-			(at 69.342 84.582 90)
+			(at 61.722 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3412,7 +4618,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 69.85 86.36 90)
+			(at 62.23 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3423,7 +4629,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.58 86.36 0)
+			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 86.36 0)
+			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +4651,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 68.58 86.36 0)
+			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +4662,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 68.58 88.138 90)
+			(at 60.96 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3466,7 +4672,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23138"
-			(at 68.58 86.36 90)
+			(at 60.96 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,7 +4683,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 68.58 86.36 90)
+			(at 60.96 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +4694,7 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 68.58 86.36 90)
+			(at 60.96 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3717,7 +4923,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 227.33 87.63 90)
+		(at 219.71 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3727,7 +4933,7 @@
 		(dnp no)
 		(uuid "ee90f8e3-64b6-47f1-bd95-998fb0ba0370")
 		(property "Reference" "R11"
-			(at 228.092 85.852 90)
+			(at 220.472 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3738,7 +4944,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 228.6 87.63 90)
+			(at 220.98 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3749,7 +4955,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 227.33 87.63 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 87.63 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +4977,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 227.33 87.63 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +4988,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 227.33 89.408 90)
+			(at 219.71 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3792,7 +4998,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23138"
-			(at 227.33 87.63 90)
+			(at 219.71 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +5009,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 227.33 87.63 90)
+			(at 219.71 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +5020,7 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 227.33 87.63 90)
+			(at 219.71 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,6 +5040,84 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e941b6-3d29-496d-ae49-407ee51dcc0e")
+		(property "Reference" "#PWR087"
+			(at 67.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47fe5a3f-81b0-4942-8085-4b88e6c5de0c")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ec6afa65-7696-4559-a816-c8db9edd5fb3"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
