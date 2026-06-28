@@ -10570,16 +10570,6 @@
 		)
 		(uuid "0126cc03-3f77-482e-bacb-8466fd5e2453")
 	)
-	(label "GH1_2"
-		(at 238.76 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03aa5967-4ca8-4219-8265-cddbe74e009f")
-	)
 	(label "VCP_2"
 		(at 193.04 53.34 0)
 		(effects
@@ -10740,6 +10730,26 @@
 		)
 		(uuid "4031b9dc-3a52-437f-858e-08322709c609")
 	)
+	(label "GL1_1"
+		(at 115.57 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42d1c462-f0ab-4a3f-97eb-70e7d7f12ea1")
+	)
+	(label "GH1_1"
+		(at 115.57 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44febf8d-b736-4240-be98-980472b1f1f3")
+	)
 	(label "GH2_1"
 		(at 119.38 114.3 180)
 		(effects
@@ -10830,16 +10840,6 @@
 		)
 		(uuid "7ad09e4b-24e1-4772-bebc-5d261115e9e1")
 	)
-	(label "GH1_1"
-		(at 115.57 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f5fbad2-9db8-4b5c-ba93-c84f02c561fa")
-	)
 	(label "GL1_2"
 		(at 151.13 134.62 0)
 		(effects
@@ -10889,16 +10889,6 @@
 			(justify left bottom)
 		)
 		(uuid "92b75d74-aa3f-4634-8935-1d0cc7dd118b")
-	)
-	(label "GL1_2"
-		(at 238.76 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94e75075-1504-4679-81f9-b21b5f915e24")
 	)
 	(label "AVDD_2"
 		(at 161.29 64.77 180)
@@ -11000,16 +10990,6 @@
 		)
 		(uuid "c4654624-11ee-484e-8bec-c0855377c8b2")
 	)
-	(label "GL1_1"
-		(at 115.57 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d124929a-d7ed-4dd5-bac0-fdbb343a6e4d")
-	)
 	(label "GH1_2"
 		(at 151.13 114.3 0)
 		(effects
@@ -11030,6 +11010,16 @@
 		)
 		(uuid "dab4d621-413c-4550-84bb-c3a4bfc8bd06")
 	)
+	(label "GH1_2"
+		(at 238.76 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcdc2234-4367-4049-bb21-a96de5c5707f")
+	)
 	(label "VREF_2"
 		(at 193.04 63.5 0)
 		(effects
@@ -11049,6 +11039,16 @@
 			(justify right bottom)
 		)
 		(uuid "df2167f9-6b0e-4957-a014-41fa757ef762")
+	)
+	(label "GL1_2"
+		(at 238.76 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e00894e7-156c-42f4-9b01-a405e035bab6")
 	)
 	(label "GL2_2"
 		(at 238.76 55.88 180)
@@ -15216,130 +15216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 72.39 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a208833d-8cc9-4966-aacc-23bc89e197bb")
-		(property "Reference" "J1"
-			(at 76.2 127.6349 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor1_OUT"
-			(at 68.58 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 72.39 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "XT60PW"
-			(at 73.914 133.096 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C98732"
-			(at 72.39 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 72.39 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part#" ""
-			(at 72.39 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba7251d5-a3a9-4333-97d7-d2ae4a3a6f9b")
-		)
-		(pin "2"
-			(uuid "5d7ba3d5-bb42-454e-9724-cce5a3ad4874")
-		)
-		(instances
-			(project "PCB_TrainDriver"
-				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 140.97 0)
 		(unit 1)
@@ -15660,6 +15536,130 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 74.93 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfc90c16-efdd-4f75-acd6-0efdba5fef16")
+		(property "Reference" "J1"
+			(at 71.12 121.2851 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor1_OUT"
+			(at 78.74 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "XT60PW"
+			(at 73.406 115.824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C98732"
+			(at 74.93 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 74.93 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 74.93 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d1d9064-1f48-4271-bad1-88e3cf67e1f8")
+		)
+		(pin "2"
+			(uuid "4f50a797-34f5-439a-9ac0-aaa0bd7c9006")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16506,130 +16506,6 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 195.58 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e54ac3b5-1dab-4db5-89c0-1a908942a4a4")
-		(property "Reference" "J2"
-			(at 199.39 127.6349 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor2_OUT"
-			(at 191.77 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 195.58 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "XT60PW"
-			(at 197.104 133.096 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C98732"
-			(at 195.58 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 195.58 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part#" ""
-			(at 195.58 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8404626f-f5f4-42ed-9162-de58ac2b9993")
-		)
-		(pin "2"
-			(uuid "fd7b25e7-ef4f-4973-ba90-c412f2966db9")
-		)
-		(instances
-			(project "PCB_TrainDriver"
-				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17541,6 +17417,130 @@
 			(project "PCB_TrainDriver"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 198.12 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff8437bc-1624-4f17-90d1-78555c8935a6")
+		(property "Reference" "J2"
+			(at 194.31 121.2851 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor2_OUT"
+			(at 201.93 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "XT60PW"
+			(at 196.596 115.824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C98732"
+			(at 198.12 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 198.12 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 198.12 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c7f4800-7725-4646-85f9-770b197f0de6")
+		)
+		(pin "2"
+			(uuid "f3ba7888-1cc8-4f59-8580-9271fb15e554")
+		)
+		(instances
+			(project "PCB_TrainDriver"
+				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/ab9c3efb-7008-42a4-b063-5f7b1a032930"
+					(reference "J2")
 					(unit 1)
 				)
 			)

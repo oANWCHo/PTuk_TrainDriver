@@ -3590,28 +3590,88 @@
 		(uuid "414e5ee5-58d7-4003-9610-e8a9d48585a6")
 	)
 	(no_connect
+		(at 220.98 67.31)
+		(uuid "44deea02-2bcf-4375-85b1-68089fd3e3ce")
+	)
+	(no_connect
+		(at 251.46 85.09)
+		(uuid "46037d01-b271-4422-beb1-9a8e0252af7f")
+	)
+	(no_connect
 		(at 26.67 36.83)
 		(uuid "4ee550b7-dce8-4145-8c5e-7f4449fa666f")
+	)
+	(no_connect
+		(at 251.46 80.01)
+		(uuid "5bd30d35-b441-420f-8eef-7112628a48d0")
 	)
 	(no_connect
 		(at 53.34 134.62)
 		(uuid "8b27fbf7-b7a9-46fc-9220-09e0299e38c1")
 	)
 	(no_connect
+		(at 220.98 62.23)
+		(uuid "8bef72bf-e691-41e1-b22e-691b84a127ce")
+	)
+	(no_connect
 		(at 26.67 64.77)
 		(uuid "8efb11a1-2650-41b3-9093-4a97d2947f88")
+	)
+	(no_connect
+		(at 220.98 97.79)
+		(uuid "9190bac6-51f5-4327-9e8e-bf4091bf9cfa")
 	)
 	(no_connect
 		(at 48.26 59.69)
 		(uuid "a1536142-489f-4da2-b6f0-67846a442f37")
 	)
 	(no_connect
+		(at 251.46 82.55)
+		(uuid "af0ef953-6880-409f-8ca6-491579b0b70c")
+	)
+	(no_connect
+		(at 251.46 64.77)
+		(uuid "b0f2a2cd-2b54-42ff-bab9-f1aa6fbc2e6e")
+	)
+	(no_connect
 		(at 53.34 132.08)
 		(uuid "b69a7b71-e42e-41ce-b664-a410c3ec13ef")
 	)
 	(no_connect
+		(at 251.46 67.31)
+		(uuid "b883fbd7-6696-4821-91bd-771ff0a38515")
+	)
+	(no_connect
+		(at 251.46 87.63)
+		(uuid "bb6e60e4-d04e-4a97-8384-814a9e04566e")
+	)
+	(no_connect
+		(at 251.46 77.47)
+		(uuid "bd13f26b-a203-461f-b2b5-5537cce74ae3")
+	)
+	(no_connect
+		(at 220.98 100.33)
+		(uuid "c6700ecb-8101-4d26-9e89-08ea76c47b52")
+	)
+	(no_connect
+		(at 251.46 92.71)
+		(uuid "c6af90c2-7428-4167-a5f1-d49787c11a96")
+	)
+	(no_connect
+		(at 251.46 74.93)
+		(uuid "c6ec4863-9629-46b3-a187-b91ae783a576")
+	)
+	(no_connect
+		(at 220.98 64.77)
+		(uuid "d1f50833-d717-4df0-b145-fb90450200f5")
+	)
+	(no_connect
 		(at 53.34 127)
 		(uuid "e2ee8d18-bcde-4d2b-810c-5387bc6bbb91")
+	)
+	(no_connect
+		(at 251.46 72.39)
+		(uuid "e8ec497a-3ffb-44e8-a449-2d8d01bb611b")
 	)
 	(no_connect
 		(at 53.34 129.54)
@@ -7879,16 +7939,27 @@
 		)
 		(uuid "f7a45234-30c0-4ca7-b2b1-6d16312d7a22")
 	)
-	(hierarchical_label "nFAULT_2"
+	(hierarchical_label "ForwardIN_3.3V"
 		(shape input)
-		(at 220.98 87.63 180)
+		(at 251.46 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03e010fe-4285-4b5c-be62-64f9f80860ec")
+	)
+	(hierarchical_label "EN_1"
+		(shape output)
+		(at 220.98 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "05b6aec6-c810-43b5-88f6-ccbe53158976")
+		(uuid "1a2bb264-d57e-4526-897e-2cf639548dcd")
 	)
 	(hierarchical_label "INA219_SCL"
 		(shape bidirectional)
@@ -7901,61 +7972,6 @@
 		)
 		(uuid "1bca35b6-8336-47a7-b6d9-8e14f27b5b85")
 	)
-	(hierarchical_label "Pneumatic"
-		(shape output)
-		(at 220.98 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33516e8e-82aa-43a1-8843-2f8405a0e5f0")
-	)
-	(hierarchical_label "nSLEEP_2"
-		(shape output)
-		(at 220.98 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43c5e4d0-ce86-4139-82ba-29f6d9a71a00")
-	)
-	(hierarchical_label "PH_1"
-		(shape output)
-		(at 220.98 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49200df3-4f3f-4878-8ff0-d92d05b8b40b")
-	)
-	(hierarchical_label "EN_2"
-		(shape output)
-		(at 220.98 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69e723d9-064a-4b36-a70a-ad88cf773554")
-	)
-	(hierarchical_label "nSLEEP_1"
-		(shape output)
-		(at 220.98 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "712c29b1-aaf7-4d84-95d4-95865c822081")
-	)
 	(hierarchical_label "PH_2"
 		(shape output)
 		(at 220.98 82.55 180)
@@ -7965,7 +7981,139 @@
 			)
 			(justify right)
 		)
-		(uuid "967d3eed-0c28-4896-b15c-cce941605da2")
+		(uuid "2ddd8549-d441-485a-b249-9784b23d7ec2")
+	)
+	(hierarchical_label "nFAULT_1"
+		(shape input)
+		(at 220.98 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30a48776-8b53-4994-8a23-de9ee552909f")
+	)
+	(hierarchical_label "nSLEEP_2"
+		(shape output)
+		(at 220.98 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35d1bb64-7eec-4a20-a587-3dcccd18d928")
+	)
+	(hierarchical_label "Horn"
+		(shape output)
+		(at 220.98 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "374bf92a-1786-4cf9-bf30-04d9f1e84e0b")
+	)
+	(hierarchical_label "EN_2"
+		(shape output)
+		(at 220.98 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d88bcdd-fc82-40e2-9294-b8611e7875a9")
+	)
+	(hierarchical_label "BackwardIN_3.3V"
+		(shape input)
+		(at 251.46 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eaf811b-9caf-4a2e-a8d6-705717439aac")
+	)
+	(hierarchical_label "Pneumatic"
+		(shape output)
+		(at 251.46 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f988f44-3760-4aed-9d5c-69a90957f60f")
+	)
+	(hierarchical_label "Lamp"
+		(shape output)
+		(at 220.98 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a535570-0c3e-4571-8c84-3763d4af1d7e")
+	)
+	(hierarchical_label "Speed_ControlIN_3.3V"
+		(shape input)
+		(at 220.98 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "527ceed0-7776-42ca-bb1c-c4c5ce3d34b9")
+	)
+	(hierarchical_label "nSLEEP_1"
+		(shape output)
+		(at 220.98 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ca8bcbd-4ca4-441b-90f2-1e36868542dc")
+	)
+	(hierarchical_label "LampIN_3.3V"
+		(shape input)
+		(at 251.46 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ee046b9-22ff-4009-a849-d8622ae18496")
+	)
+	(hierarchical_label "HornIN_3.3V"
+		(shape input)
+		(at 251.46 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1a3bff4-c367-4e39-b4a3-7d60e7936e0c")
+	)
+	(hierarchical_label "nFAULT_2"
+		(shape input)
+		(at 220.98 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b39c8440-efb2-404f-9807-5c2fbd844d42")
 	)
 	(hierarchical_label "INA219_SDA"
 		(shape bidirectional)
@@ -7978,49 +8126,16 @@
 		)
 		(uuid "b42eac83-4eb4-4c38-baa0-a4a35ccc3354")
 	)
-	(hierarchical_label "EN_1"
+	(hierarchical_label "PH_1"
 		(shape output)
-		(at 220.98 69.85 180)
+		(at 220.98 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c77a698c-ff1a-42be-9e94-9acf422a9b29")
-	)
-	(hierarchical_label "nFAULT_1"
-		(shape input)
-		(at 220.98 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d337fec3-c558-4af2-8a7f-ef939bbc6d67")
-	)
-	(hierarchical_label "Horn"
-		(shape output)
-		(at 220.98 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4a01106-204b-4d67-b375-90bd0df8607e")
-	)
-	(hierarchical_label "Lamp"
-		(shape output)
-		(at 220.98 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff16e0c0-3438-40d7-81d2-7cf3abdaef8c")
+		(uuid "de9498d5-cdd5-41a9-8156-8407e066900b")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9404,7 +9519,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e24342c-b976-4a01-a496-f3040ce03350")
 		(property "Reference" "U5"

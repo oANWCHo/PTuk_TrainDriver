@@ -69,8 +69,31 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|164764316|47013500|35e1c5f6-0749-4276-bd22-98adb190bdca|f64bb4d0-63f7-410d-bea7-d5f8189fac8d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|165025000|47013500|35e1c5f6-0749-4276-bd22-98adb190bdca|fac63ac1-c01f-46b0-a8a7-ae1ed898c276",
+          ""
+        ],
+        [
+          "copper_edge_clearance|170375000|47013500|11b030ad-17c2-44a4-8a95-1fc9bcb9e3af|48264c99-0d7c-4c12-b6f0-f028e321f5cc",
+          ""
+        ],
+        [
+          "copper_edge_clearance|170625000|47013500|11b030ad-17c2-44a4-8a95-1fc9bcb9e3af|e44e47e9-da04-4fe0-ae15-d3e9edcaa820",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -203,7 +226,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +258,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -788,7 +829,7 @@
         "uuid": "f74253cb-ef08-441b-b3c3-36bc664bf8d8"
       }
     ],
-    "used_designators": "R18,R25-26,U6,#PWR35,#PWR37,#PWR60,#PWR62-67,C32,CN1",
+    "used_designators": "R19-22,R27-33,J1-2,J6,U8,U10,D4,D9-12,#PWR68-85,H1-6",
     "variants": []
   },
   "sheets": [
@@ -811,6 +852,10 @@
     [
       "c7e2314f-5989-4b2f-b4f9-fbd516f2b926",
       "MCU"
+    ],
+    [
+      "8d1c51b7-5e3c-4231-ace1-b9b60698eead",
+      "Opto"
     ]
   ],
   "text_variables": {},
