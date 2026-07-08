@@ -2669,7 +2669,7 @@
 			(uuid "2756c8cc-a961-4aac-9397-0344ddae1f63")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR080")
 					(unit 1)
@@ -2766,7 +2766,7 @@
 			(uuid "6430c180-da66-4225-a8ea-a9b8dedb06e6")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "D4")
 					(unit 1)
@@ -2843,7 +2843,7 @@
 			(uuid "6c5fa5fc-6aa2-4379-b27b-033b18539bce")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR078")
 					(unit 1)
@@ -2944,7 +2944,7 @@
 			(uuid "073b3945-4a96-455e-bf20-d87da0148e3e")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "D12")
 					(unit 1)
@@ -3021,7 +3021,7 @@
 			(uuid "a48f709d-b702-4171-925a-87a1ff23f117")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR082")
 					(unit 1)
@@ -3098,7 +3098,7 @@
 			(uuid "52126ce0-9647-42c9-a8de-8715ba54acc4")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR083")
 					(unit 1)
@@ -3223,7 +3223,7 @@
 			(uuid "2c1133e2-0efd-4b7b-87b5-778c71eced07")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "U8")
 					(unit 1)
@@ -3302,7 +3302,7 @@
 			(uuid "e0dc0d7f-0a84-4fbe-b888-7b5450da3898")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR085")
 					(unit 1)
@@ -3381,7 +3381,7 @@
 			(uuid "1570b42d-66e3-4a2e-a9bf-b542d0da4925")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR079")
 					(unit 1)
@@ -3458,7 +3458,7 @@
 			(uuid "3a7cb613-f38d-4029-b51c-fa35d0b171b7")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR081")
 					(unit 1)
@@ -3583,7 +3583,7 @@
 			(uuid "2c1133e2-0efd-4b7b-87b5-778c71eced08")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "U8")
 					(unit 3)
@@ -3660,7 +3660,7 @@
 			(uuid "bb2de70d-e455-462e-ac6c-b66b24a20420")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR072")
 					(unit 1)
@@ -3762,7 +3762,7 @@
 			(uuid "670eee18-06b4-48b9-875f-dbde219d8242")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R29")
 					(unit 1)
@@ -3864,7 +3864,7 @@
 			(uuid "ab2b4101-6ecf-4a3d-8fd0-1ba5e905a993")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R31")
 					(unit 1)
@@ -3965,7 +3965,7 @@
 			(uuid "3e435c13-6d0c-4945-a622-613d02c4d707")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "D10")
 					(unit 1)
@@ -4044,7 +4044,7 @@
 			(uuid "83c6ab98-1ac8-4bbc-b628-743c23a06d63")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR077")
 					(unit 1)
@@ -4146,7 +4146,7 @@
 			(uuid "0dc99550-26ef-4d24-a1fc-aea460b1e74b")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R33")
 					(unit 1)
@@ -4271,7 +4271,7 @@
 			(uuid "2c1133e2-0efd-4b7b-87b5-778c71eced09")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "U8")
 					(unit 2)
@@ -4350,7 +4350,7 @@
 			(uuid "06bc3b6d-22df-4634-90bd-3a13dc1b1d33")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR070")
 					(unit 1)
@@ -4428,7 +4428,7 @@
 			(uuid "55490755-5718-49c6-9a10-bf48af0610f0")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR068")
 					(unit 1)
@@ -4506,7 +4506,7 @@
 			(uuid "35d2daf4-73b5-4467-b070-1afb770bd13e")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR069")
 					(unit 1)
@@ -4583,7 +4583,7 @@
 			(uuid "4979f6a8-002c-480c-a917-45f6dd5d161b")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR084")
 					(unit 1)
@@ -4660,7 +4660,7 @@
 			(uuid "73042b08-e855-4c94-a111-8cf21b97958f")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR074")
 					(unit 1)
@@ -4739,7 +4739,7 @@
 			(uuid "6c9377f0-96be-4179-ba56-36d76b556d82")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR075")
 					(unit 1)
@@ -4840,7 +4840,7 @@
 			(uuid "9b8f47ba-301c-4de1-b7f1-da4fc4159d37")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "D11")
 					(unit 1)
@@ -4942,7 +4942,7 @@
 			(uuid "48931256-0d96-4c78-a43b-a6e8d91bcaff")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R32")
 					(unit 1)
@@ -5044,7 +5044,7 @@
 			(uuid "8571847f-fdf9-48d0-a802-ad66d0e5c012")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R30")
 					(unit 1)
@@ -5146,7 +5146,7 @@
 			(uuid "90a6b4e5-a393-4ffb-812d-a3a9531a8a13")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R22")
 					(unit 1)
@@ -5223,7 +5223,7 @@
 			(uuid "c5452650-a560-4475-885f-3f18f4642c15")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR076")
 					(unit 1)
@@ -5302,7 +5302,7 @@
 			(uuid "bd2f37f2-df77-420f-bad7-97d55717f090")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "#PWR073")
 					(unit 1)
@@ -5427,7 +5427,7 @@
 			(uuid "2c1133e2-0efd-4b7b-87b5-778c71eced0a")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "U8")
 					(unit 4)
@@ -5529,7 +5529,7 @@
 			(uuid "d7a15917-a5bf-4879-ba65-938c6fdae675")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R21")
 					(unit 1)
@@ -5631,7 +5631,7 @@
 			(uuid "ee91f57b-ad9b-4c9f-ab50-2805458aec15")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R20")
 					(unit 1)
@@ -5733,7 +5733,7 @@
 			(uuid "631e5b62-1b6a-4162-99d5-3bd60e48ebbf")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R28")
 					(unit 1)
@@ -5827,7 +5827,7 @@
 			(uuid "640355d0-d249-4f5c-a5d6-bd6897792cef")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "J6")
 					(unit 1)
@@ -5929,7 +5929,7 @@
 			(uuid "0fb5ea41-7872-486c-a99f-f2470140d1e6")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "R19")
 					(unit 1)
@@ -6030,7 +6030,7 @@
 			(uuid "39640a68-a8ba-4318-8bab-d3d30931ba0c")
 		)
 		(instances
-			(project "PCB_TrainDriver"
+			(project "PCB_TrainController"
 				(path "/f74253cb-ef08-441b-b3c3-36bc664bf8d8/8d1c51b7-5e3c-4231-ace1-b9b60698eead"
 					(reference "D9")
 					(unit 1)

@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +241,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -490,7 +514,7 @@
     ]
   },
   "meta": {
-    "filename": "PCB_TrainDriver.kicad_pro",
+    "filename": "PCB_MotorDriver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -538,7 +562,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "production\\bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -579,6 +603,12 @@
         },
         {
           "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -593,12 +623,6 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -783,38 +807,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB_TrainDriver.kicad_sch",
-        "name": "Root",
+        "filename": "PCB_MotorDriver.kicad_sch",
+        "name": "PCB_MotorDriver",
         "uuid": "f74253cb-ef08-441b-b3c3-36bc664bf8d8"
       }
     ],
-    "used_designators": "#PWR88-89,J7",
+    "used_designators": "#PWR31,#PWR69,J5",
     "variants": []
   },
   "sheets": [
     [
       "f74253cb-ef08-441b-b3c3-36bc664bf8d8",
-      "Root"
+      "PCB_MotorDriver"
     ],
     [
       "ab9c3efb-7008-42a4-b063-5f7b1a032930",
       "H-Bridge_Driver"
-    ],
-    [
-      "ec6afa65-7696-4559-a816-c8db9edd5fb3",
-      "aux_port"
-    ],
-    [
-      "4e4ac9ff-7b76-4f1d-9093-ce2b1ba9f40d",
-      "PSU"
-    ],
-    [
-      "c7e2314f-5989-4b2f-b4f9-fbd516f2b926",
-      "MCU"
-    ],
-    [
-      "8d1c51b7-5e3c-4231-ace1-b9b60698eead",
-      "Opto"
     ]
   ],
   "text_variables": {},

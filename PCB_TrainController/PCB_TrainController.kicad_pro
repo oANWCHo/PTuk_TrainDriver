@@ -490,7 +490,7 @@
     ]
   },
   "meta": {
-    "filename": "PCB_TrainDriver.kicad_pro",
+    "filename": "PCB_TrainController.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -783,22 +783,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB_TrainDriver.kicad_sch",
-        "name": "Root",
+        "filename": "PCB_TrainController.kicad_sch",
+        "name": "PCB_TrainController",
         "uuid": "f74253cb-ef08-441b-b3c3-36bc664bf8d8"
       }
     ],
-    "used_designators": "#PWR88-89,J7",
+    "used_designators": "#PWR37,#PWR60,#PWR88,J7",
     "variants": []
   },
   "sheets": [
     [
       "f74253cb-ef08-441b-b3c3-36bc664bf8d8",
-      "Root"
-    ],
-    [
-      "ab9c3efb-7008-42a4-b063-5f7b1a032930",
-      "H-Bridge_Driver"
+      "PCB_TrainController"
     ],
     [
       "ec6afa65-7696-4559-a816-c8db9edd5fb3",
