@@ -11131,7 +11131,7 @@
 		)
 		(uuid "042a5b92-c869-48fa-bd1e-b4175e5154cb")
 	)
-	(hierarchical_label "nSLEEP_2"
+	(hierarchical_label "nSLEEP"
 		(shape input)
 		(at 236.22 78.74 0)
 		(effects
@@ -11219,7 +11219,7 @@
 		)
 		(uuid "a4bb92d6-fd9d-413a-8b46-c10ae01d46e9")
 	)
-	(hierarchical_label "nSLEEP_1"
+	(hierarchical_label "nSLEEP"
 		(shape input)
 		(at 113.03 78.74 0)
 		(effects

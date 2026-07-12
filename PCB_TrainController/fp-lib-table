@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Lib") (type "KiCad") (uri "D:/Nano/PTuk_TrainDriver/Lib.pretty") (options "") (descr ""))
+	(lib (name "Lib") (type "KiCad") (uri "D:/Nano/PTuk_TrainDriver/Lib.pretty") (options "") (descr ""))
+	(lib (name "Trainfootprint") (type "KiCad") (uri "D:/Nano/PTuk_TrainDriver/Lib/Trainfootprint.pretty") (options "") (descr ""))
+)

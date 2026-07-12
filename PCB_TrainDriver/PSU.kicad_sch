@@ -2474,6 +2474,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 62.484 116.078 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "8f0bc444-ab5d-46cb-9ef8-b9e4de9b61e4")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 119.126 151.892 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "d443bdf7-270a-493b-b8a7-d80d75f73715")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 139.192 109.22 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "e1afc7b0-0d66-4eab-ba07-b1c15c10aaad")
+	)
 	(junction
 		(at 189.23 111.76)
 		(diameter 0)
@@ -10256,7 +10298,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C11702"
 			(at 218.44 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11012,7 +11054,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C60490"
 			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
